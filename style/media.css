@@ -1,0 +1,405 @@
+@media (min-width: 1441px) {
+    .banner__color {
+        width: 35%;
+    }
+}
+
+@media (max-width: 1385px) {
+    .watch__cost {
+        left: 500px;
+    }
+}
+
+@media (max-width: 1275px) {
+    .watch__cost {
+        left: 415px;
+    }
+
+    .card__watch {
+        width: 300px;
+    }
+
+    .card__watch img {
+        position: relative;
+        z-index: 1;
+    }
+
+    .elipse {
+        left: -15px;
+    }
+}
+
+@media (max-width: 1165px) {
+    .watch__cost {
+        left: 300px;
+    }
+
+    .container__main h1 {
+        font-size: 35px;
+    }
+
+    .container__main h2 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .container__main p {
+        margin-bottom: 35px;
+    }
+
+    .card__watch img {
+        width: 100%;
+    }
+
+    .elipse {
+        top: 34px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .watch {
+        right: 0px;
+    }
+
+    .shadow {
+        right: 202px;
+    }
+
+    .watch__cost {
+        left: 450px;
+    }
+
+    .watch__width {
+        right: 0px;
+    }
+
+    .watch__cost p {
+        font-size: 14px;
+    }
+
+    .watch__cost .line {
+        width: 25px;
+        height: 2px;
+        margin-left: 8px;
+    }
+
+    .watch__width p {
+        font-size: 14px;
+        margin-right: 8px;
+    }
+
+    .watch__width .line {
+        width: 25px;
+        height: 4px;
+        margin-right: 8px;
+    }
+
+    .banner img {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .container__banner {
+        margin-left: 50px;
+    }
+
+    .button__banner {
+        width: 160px;
+        height: 40px;
+    }
+
+    .container__banner h2 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .container__banner p {
+        font-size: 14px;
+        margin-bottom: 40px;
+        width: 85%;
+    }
+
+    .container__arrow {
+        margin-right: 20px;
+    }
+
+    .round-2 {
+        height: 348px;
+    }
+
+    .container__new-img img {
+        width: 200px;
+    }
+
+    .container__new-img {
+        align-items: center;
+    }
+
+    .container__new h2 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .container__new p {
+        font-size: 14px;
+        margin-bottom: 80px;
+        width: 85%;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .header .wrapper {
+        justify-content: space-around;
+        padding: 25px 0 25px 0;
+    }
+
+    .hidden__menu {
+        display: block;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .watch {
+        width: 30%;
+    }
+
+    .shadow {
+        width: 30%;
+        top: -4px;
+        right: 120px;
+    }
+
+    .watch__cost {
+        display: none;
+    }
+
+    .watch__width {
+        display: none;
+    }
+
+    .button__catalog {
+        width: 165px;
+        height: 45px;
+    }
+
+    .main {
+        height: 50%;
+    }
+
+    .container__main {
+        top: 90px;
+    }
+
+    .container__catalog-header h2 {
+        font-size: 26px;
+        margin-top: 100px;
+    }
+
+    .container__catalog-header p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .elipse {
+        display: none;
+    }
+
+    .round-1 {
+        display: none;
+    }
+
+    .round-2 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .container__new-img {
+        display: flex;
+        align-items: normal;
+    }
+
+    .new .wrapper {
+        flex-direction: column;
+    }
+
+    .container__new-img img {
+        width: 150px;
+    }
+
+    .container__new p {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .banner {
+        margin-bottom: 20px;
+    }
+
+    .container__new {
+        text-align: center;
+    }
+
+    .social {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 728px) {
+    .catalog__card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card__watch {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .wath__more p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 660px) {
+    .container__main {
+        top: 20px;
+    }
+
+    .container__main h1 {
+        font-size: 24px;
+    }
+
+    .container__main h2 {
+        font-size: 22px;
+    }
+
+    .button__catalog {
+        width: 150px;
+        height: 45px;
+    }
+
+    .container__main .line {
+        display: none;
+    }
+
+    .watch {
+        right: 52px;
+    }
+
+    .container__catalog-header h2 {
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    .container__banner h2 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .container__banner p {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .container__new h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .footer .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        grid-gap: 30px;
+        text-align: center;
+    }
+
+    .footer {
+        padding: 20px 0 20px 0;
+    }
+
+    .footer h2 {
+        margin-bottom: 15px;
+    }
+
+    .footer .logo {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 495px) {
+    .container__new-img {
+        display: none;
+    }
+
+    .main {
+        height: 40%;
+    }
+
+    .banner .wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .banner img {
+        margin-top: 10px;
+    }
+
+    .container__banner p {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .banner__color {
+        width: 35%;
+    }
+
+    .hidden__menu {
+        top: 25px;
+        left: 9px;
+    }
+
+    .container__catalog-header h2 {
+        margin-bottom: 15px;
+    }
+
+    .container__catalog-header .line {
+        display: none;
+    }
+
+    .container__main p {
+        margin-bottom: 15px;
+    }
+
+    .watch {
+        right: 0;
+    }
+
+    .shadow {
+        top: 0;
+        right: 39px;
+    }
+
+    .container__catalog-header p {
+        text-align: center;
+    }
+
+    .card__watch {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container__main {
+        left: 20px;
+    }
+
+    .hidden__menu {
+        width: 32px;
+    }
+}
